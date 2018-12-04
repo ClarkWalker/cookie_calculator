@@ -76,7 +76,6 @@ def profit_calculator(desired_profit):
 
 
 # Example:
-
 print(profit_calculator(desired_profit=250))
 assert profit_calculator(desired_profit=250) == 153
 # >>> 153
