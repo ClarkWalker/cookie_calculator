@@ -7,10 +7,10 @@
 # Below are two dictionaries:
 # The recipe dictionary is expressed in cups and single eggs.
 # It is the recipe for just one batch of sugar cookies.
-recipe = {'butter': 1, 'sugar': 2, 'flour': 3, 'eggs': 1}
+# recipe = {'butter': 1, 'sugar': 2, 'flour': 3, 'eggs': 1}
 # The prices dictionary is expressed in dollars per pound and dollars
 # per dozen of eggs
-prices = {'butter': 3.60, 'sugar': 1.60, 'flour': 1.00, 'eggs': 3.00}
+# prices = {'butter': 3.60, 'sugar': 1.60, 'flour': 1.00, 'eggs': 3.00}
 
 # There are 4 cups in a pound
 # You will sell your cookies for $5 per batch
@@ -18,6 +18,9 @@ prices = {'butter': 3.60, 'sugar': 1.60, 'flour': 1.00, 'eggs': 3.00}
 
 # Write a function, profit_calculator, that returns the number of batches
 # of cookies that you must sell in order to get the desired profit
+
+recipe = {'butter': 1, 'sugar': 2, 'flour': 3, 'eggs': 1}
+prices = {'butter': 3.60, 'sugar': 1.60, 'flour': 1.00, 'eggs': 3.00}
 
 
 def batch_recur(
